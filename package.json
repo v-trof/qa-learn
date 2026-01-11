@@ -1,0 +1,40 @@
+{
+  "name": "qa-learn",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "vd": "vercel dev",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vercel/node": "^5.5.16",
+    "@vitejs/plugin-react": "^5.1.2",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3",
+    "vercel": "^50.1.6",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "@google/genai": "^1.35.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "firebase": "^12.7.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "vite-plugin-vercel": "^9.1.1",
+    "zod": "^4.3.5",
+    "zod-to-json-schema": "^3.25.1"
+  }
+}
